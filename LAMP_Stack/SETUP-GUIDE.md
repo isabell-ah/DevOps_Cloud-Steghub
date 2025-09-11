@@ -2,8 +2,6 @@
 
 Complete step-by-step guide to implement LAMP stack on AWS EC2.
 
-![EC2 Setup](images/ec2-setup.png)
-
 ## Table of Contents
 1. [AWS EC2 Setup](#aws-ec2-setup)
 2. [Install LAMP Components](#install-lamp-components)
@@ -19,8 +17,8 @@ Complete step-by-step guide to implement LAMP stack on AWS EC2.
 
 **Instance Configuration:**
 - **AMI**: Ubuntu Server 20.04 LTS (Free Tier)
-- **Instance Type**: t2.micro (Free Tier)
-- **Key Pair**: Create or use existing key pair
+- **Instance Type**: t3.micro (Free Tier)
+- **Key Pair**: Create new key pair
 - **Storage**: 8 GB gp2 (Free Tier)
 
 **Security Group Configuration:**
