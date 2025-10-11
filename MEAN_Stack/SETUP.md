@@ -69,7 +69,7 @@ node server.js
 ```
 
 ### 10. Access the App
-- Open browser: `http://YOUR_EC2_PUBLIC_IP:3000`
+- Open browser: `http://YOUR_EC2_PUBLIC_IP:3000` (http://3.101.155.53:3000/)
 
 ## Project Structure
 ```
@@ -91,5 +91,3 @@ After setup, you should see:
 Server up: http://0.0.0.0:3000
 MongoDB connected
 ```
-
-Your application will be accessible at `http://YOUR_EC2_PUBLIC_IP:3000`

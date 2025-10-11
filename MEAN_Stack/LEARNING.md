@@ -38,7 +38,7 @@ Created the basic MEAN stack structure with MongoDB, Express, AngularJS, and Nod
 - **Lesson**: Cloud security is explicit - nothing is open by default
 
 ### Phase 8: Success!
-Application finally accessible from web at `http://EC2_PUBLIC_IP:3000`
+Application finally accessible from web at `http://EC2_PUBLIC_IP:3000` (http://3.101.155.53:3000/)
 
 ## Key Concepts Mastered
 
