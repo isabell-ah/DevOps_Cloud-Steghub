@@ -40,6 +40,7 @@ Client (Browser) ↓ Web Server (EC2 - RedHat) ↓ Database Server (EC2 - RedHat
 - Mounted `/u01` and `/var/log`, updated `/etc/fstab` for persistence
 
 ---
+![alt text](<Screenshot 2025-10-24 041604.png>)
 
 ##  Web Server Setup
 
@@ -62,7 +63,7 @@ sudo systemctl restart mysqld
 sudo systemctl enable mysqld
 ```
 
-- Created database and user:
+##  Created database and user:
 ```bash
 CREATE DATABASE wordpress;
 CREATE USER 'wordpressuser'@'%' IDENTIFIED BY 'yourpassword';
@@ -72,13 +73,13 @@ FLUSH PRIVILEGES;
 
 
 - Opened port 3306 for Web Server IP only
-
-
+![parttion](./imgs/fil.png)
 ## Validation
 - Verified remote DB connectivity via mysql -h <DB_IP> -u wordpressuser -p
 - Confirmed WordPress loads at:
 http://<WEB_SERVER_IP>/wordpress/
 - Mounted volumes persist across reboot (df -h confirmed)
+![alt text](<Screenshot 2025-10-24 120836.png>)
 
 ## Notes
 This project reinforces:
