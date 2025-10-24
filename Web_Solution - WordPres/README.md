@@ -40,7 +40,7 @@ Client (Browser) ↓ Web Server (EC2 - RedHat) ↓ Database Server (EC2 - RedHat
 - Mounted `/u01` and `/var/log`, updated `/etc/fstab` for persistence
 
 ---
-![alt text](<Screenshot 2025-10-24 041604.png>)
+![vol](./imgs/vols.png)
 
 ##  Web Server Setup
 
@@ -79,7 +79,8 @@ FLUSH PRIVILEGES;
 - Confirmed WordPress loads at:
 http://<WEB_SERVER_IP>/wordpress/
 - Mounted volumes persist across reboot (df -h confirmed)
-![alt text](<Screenshot 2025-10-24 120836.png>)
+
+![ver](./imgs/ver.png)
 
 ## Notes
 This project reinforces:
