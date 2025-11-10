@@ -273,6 +273,20 @@ sudo systemctl status nfs-server.service   # Check service status
 sudo systemctl restart nfs-server.service  # Restart service
 ```
 
+## Project Screenshots
+
+### CLI Output
+![CLI Commands](./imgs/CLI_Output.png)
+
+### Final Application
+
+**Login Page**
+![Application Login](./imgs/Final_Output%201.png)
+
+**Dashboard**
+![Application Dashboard](./imgs/Final_Output%202.png)
+
+
 **systemd Benefits:**
 - Parallel service startup for faster boot times
 - Dependency management between services
@@ -301,18 +315,6 @@ sudo systemctl restart nfs-server.service  # Restart service
 - **PHP 7.4:** Server-side scripting language
 - **MySQL 8.0:** Relational database management system
 
-## Project Screenshots
-
-### CLI Output
-![CLI Commands](./imgs/CLI_Output.png)
-
-### Final Application
-
-**Login Page**
-![Application Login](./imgs/Final_Output%201.png)
-
-**Dashboard**
-![Application Dashboard](./imgs/Final_Output%202.png)
 
 ## Implementation
 

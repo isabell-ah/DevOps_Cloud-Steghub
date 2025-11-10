@@ -464,7 +464,13 @@ ls -la /var/www/html/
 
 You should see the `test-from-web1.txt` file created from Web Server 1.
 
-**On NFS Server:**
+*![CLI Output](imgs/CLI_Output.png)
+
+![Final Output 1](imgs/Final_Output%201.png)
+
+![Final Output 2](imgs/Final_Output%202.png)
+
+*On NFS Server:**
 ```bash
 ls -la /mnt/apps/html/
 ```
