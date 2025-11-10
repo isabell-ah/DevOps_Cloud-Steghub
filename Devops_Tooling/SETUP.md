@@ -7,6 +7,19 @@
 - [Step 3: Web Servers Configuration](#step-3-web-servers-configuration)
 - [Step 4: Testing and Verification](#step-4-testing-and-verification)
 - [Step 5: Troubleshooting](#step-5-troubleshooting)
+## Project Screenshots
+
+### CLI Output
+![CLI Commands](./imgs/CLI_Output.png)
+
+### Final Application
+
+**Login Page**
+![Application Login](./imgs/Final_Output%201.png)
+
+**Dashboard**
+![Application Dashboard](./imgs/Final_Output%202.png)
+
 
 ## Prerequisites
 
@@ -464,13 +477,7 @@ ls -la /var/www/html/
 
 You should see the `test-from-web1.txt` file created from Web Server 1.
 
-*![CLI Output](imgs/CLI_Output.png)
-
-![Final Output 1](imgs/Final_Output%201.png)
-
-![Final Output 2](imgs/Final_Output%202.png)
-
-*On NFS Server:**
+**On NFS Server:**
 ```bash
 ls -la /mnt/apps/html/
 ```
@@ -885,6 +892,7 @@ After successfully implementing this solution, consider:
 
 ---
 
+**Project Status:** Complete
 **Last Updated:** 2025-11-10
-**For questions or issues, please refer to the main [README.md](./README.md)**
-
+**Author:** Sharon Isabela  
+**Github:** https://github.com/isabell-ah/DevOps_Cloud-Steghub/tree/master/Devops_Tooling
