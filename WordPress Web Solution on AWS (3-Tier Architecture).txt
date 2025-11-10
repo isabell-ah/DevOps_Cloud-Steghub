@@ -1,0 +1,8 @@
+
+Project 6: WordPress Web Solution on AWS (3-Tier Architecture)
+ 
+GITHUB:
+https://github.com/isabell-ah/DevOps_Cloud-Steghub/tree/master/Web_Solution%20-%20WordPres
+
+LINKEDIN 
+https://www.linkedin.com/feed/update/urn:li:share:7378275730687672320/
