@@ -60,9 +60,9 @@ Load Balancer Solution with apache/
 ├── README.md                    # This file
 ├── SETUP_GUIDE.md              # Detailed setup instructions
 └── images/                     # Architecture and configuration screenshots
-    ├── ec2-instance-summary.png
-    ├── apache-loadbalancer-config.png
-    └── loadbalancer-concept.png
+    ├── ec2.png
+    ├── apache.png
+    └── output.png
 ```
 
 
